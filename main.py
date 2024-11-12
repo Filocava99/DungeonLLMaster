@@ -10,13 +10,13 @@ from UrbanOrchestrator import UrbanOrchestrator
 config_list = [{'model': 'gpt-4o', 'api_key': os.environ['OPENAI_API_KEY']}]
 llm_config = {"config_list": config_list, "seed": 42}
 
-def create_dungeon(message: Annotated[str, 'Dungeon creation query']):
+def create_dungeon(message: Annotated[str, 'Dungeon creation query']) -> Annotated[str, 'Dungeon creation response']:
     return DungeonOrchestrator().create_dungeon_initial(message)
 
-def create_quest(message: Annotated[str, 'Quest creation query']):
+def create_quest(message: Annotated[str, 'Quest creation query']) -> Annotated[str, 'Quest creation response']:
     return QuestOrchestrator().create_quest(message)
 
-def create_urban_area(message: Annotated[str, 'Urban area creation query']):
+def create_urban_area(message: Annotated[str, 'Urban area creation query']) -> Annotated[str, 'Urban area creation response']:
     return UrbanOrchestrator.create_urban_area(message)
 
 dungeonMaster = AssistantAgent(
