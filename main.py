@@ -17,7 +17,7 @@ def create_quest(message: Annotated[str, 'Quest creation query']) -> Annotated[s
     return QuestOrchestrator().create_quest(message)
 
 def create_urban_area(message: Annotated[str, 'Urban area creation query']) -> Annotated[str, 'Urban area creation response']:
-    return UrbanOrchestrator.create_urban_area(message)
+    return UrbanOrchestrator().create_urban_area(message)
 
 dungeonMaster = AssistantAgent(
     name="dungeon_master",
