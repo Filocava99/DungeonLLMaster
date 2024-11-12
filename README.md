@@ -11,38 +11,48 @@ You can create dungeons, quests, cities, villages, NPCs, monsters, and much more
 ## Features
 
 ### Dungeon creation
-  - Detailed description of the lore of the dungeon
-  - Detailed description of each room
-  - Monsters placement and boss creation
-  - Traps placement
-  - Loot placement
-  - Puzzle creation
-  - NPC placement
-  - Advanced spacial layout of the dungeon
-  - Dungeon map generation (using ASCII art)
-  - 3D dungeon map visualization (coming soon)
+| Feature              | Description                                              |
+|----------------------|----------------------------------------------------------|
+| Lore                 | Detailed description of the lore of the dungeon          |
+| Rooms                | Detailed description of each room                        |
+| Monsters             | Monsters placement and boss creation                     |
+| Traps                | Traps placement                                          |
+| Loot                 | Loot placement                                           |
+| Puzzles              | Puzzle creation                                          |
+| NPCs                 | NPC placement                                            |
+| Layout               | Advanced spatial layout of the dungeon                   |
+| Map Generation       | Dungeon map generation (using ASCII art)                 |
+| 3D Map Visualization | 3D dungeon map visualization (coming soon)               |
+
 ### Quest creation
-  - Detailed description of the lore of the quest
-  - Quest objectives
-  - Quest rewards
-  - Quest NPCs
-  - Quest monsters
-  - Quest locations
+| Feature    | Description                                              |
+|------------|----------------------------------------------------------|
+| Lore       | Detailed description of the lore of the quest            |
+| Objectives | Quest objectives                                         |
+| Rewards    | Quest rewards                                            |
+| NPCs       | Quest NPCs                                               |
+| Monsters   | Quest monsters                                           |
+| Locations  | Quest locations                                          |
+
 ### Urban agglomerate creation
-  - Detailed description of the lore of the city/village
-  - Detailed description of each location
-  - NPCs placement
-  - Quests placement
-  - Shops placement
-  - Taverns placement
-  - Inns placement
-  - Temples placement
-  - Guilds placement
-  - Urban map generation (using ASCII art)
-  - 3D urban map visualization (coming soon)
+| Feature              | Description                                              |
+|----------------------|----------------------------------------------------------|
+| Lore                 | Detailed description of the lore of the city/village     |
+| Locations            | Detailed description of each location                    |
+| NPCs                 | NPCs placement                                           |
+| Quests               | Quests placement                                         |
+| Shops                | Shops placement                                          |
+| Taverns              | Taverns placement                                        |
+| Inns                 | Inns placement                                           |
+| Temples              | Temples placement                                        |
+| Guilds               | Guilds placement                                         |
+| Map Generation       | Urban map generation (using ASCII art)                   |
+| 3D Map Visualization | 3D urban map visualization (coming soon)                 |
 
 ### General usage
-- Generative AI support for tasks not covered by the main submodules, like generating new lore, names, etc.
+| Feature       | Description                                              |
+|---------------|----------------------------------------------------------|
+| Generative AI | Support for tasks not covered by the main submodules, like generating new lore, names, etc. |
 
 ## Installation
 
